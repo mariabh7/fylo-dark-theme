@@ -1,0 +1,463 @@
+body{
+    margin: 0;
+    position: relative;
+    background-color: rgb(24, 31, 43);
+    font-family: 'Tajawal', sans-serif;
+}
+.fylo2-d{
+    background-color: rgb(31, 38, 57);
+}
+.grey-bg{
+    padding: 2rem 4rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 12%;
+}
+.logo img{
+    width: 100%;
+}
+.nav-links{
+    margin: 0;
+    display: flex;
+    column-gap: 2rem;
+}
+.header-link{
+    list-style-type: none;
+}
+header a{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+ a:hover{
+    color: rgb(68, 204, 207);
+}
+.picture1{
+    margin: 3rem 0 27rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
+}
+.intro-text{
+    color: rgb(219, 219, 219);
+    font-size: 1.3rem;
+}
+.blue-b{
+    padding: 0.7rem 4rem;
+    border: 1px solid rgb(9, 187, 219) ;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    background-color: rgb(9, 187, 219);
+    color: rgb(255, 255, 255);
+}
+/* curvy section */
+.black-bg{
+    position: relative;
+    background-color:  rgb(24, 31, 43);
+}
+.desk-bg{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.mobile-bg{
+    display: none;
+}
+.intro{
+    margin: 0 25rem;
+    text-align: center;
+    bottom: 150px;
+    position: absolute;
+}
+.grid-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+    flex-wrap: wrap;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+.access-any{
+    margin: 2rem 0;
+    text-align: center;
+     width: 35%;
+    list-style-type: none;
+}
+h2{
+    color: white;
+}
+.features-t{
+     font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.541);
+}
+.flex-w{
+    padding: 5rem ;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4rem;
+}
+.pro-text{
+    margin-top: 7rem ;
+}
+h3{
+    font-size: 2rem;
+    color: white;
+}
+.h-t{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.541);
+}
+.p-l{
+    color: rgb(98, 220, 241);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.link-pr{
+    display: flex;
+    column-gap: 1rem;
+}
+.link-pr img{
+    width: 4%;
+}
+.p-opin{
+    margin:2rem 7rem  20rem;
+}
+.opi-wrap{
+    display: flex;
+    margin-top: 1rem;
+    column-gap: 2rem;
+    justify-content: space-between;
+}
+.pers{
+    border: 1px solid rgb(40, 51, 76) ;
+    border-radius: 0.5rem;
+    padding:  1rem ;
+    background-color: rgb(40, 51, 76 );
+}
+.opinions{
+    font-size: 1.1rem;
+    color: rgba(255, 250, 250, 0.816);
+}
+.p-d{
+   padding-top: 0.5rem;
+    display: flex;
+    column-gap: 1rem;
+}
+.p-d img{
+    width: 20%;
+    border-radius: 50%;
+}
+h6{
+    color: white;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+.job{
+    margin: 0;
+    color: rgba(255, 250, 250, 0.816);
+}
+.get-access{
+    position: absolute;
+    bottom: 400px;
+    border: 1px solid rgb(36, 43, 60) ;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.485);
+    background-color:rgb(33, 39, 51) ;
+    padding: 2rem 3rem;
+    margin: 0rem 15rem ; 
+}
+.text-g{
+    text-align: center;
+}
+h4{
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: white;
+}
+.acc{
+    font-size: 1.2rem;
+    color: white;
+}
+form{
+    display: flex;
+    padding: 0.5rem 0;
+    column-gap: 1rem;
+    justify-content: center;
+    justify-items: center;
+}
+.email1{
+    width: 60%;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding:  0.9rem 2rem;
+}
+.submit1{
+    border: 1px solid rgb(9, 187, 219);
+    background-color: rgb(9, 187, 219);
+    color: white;
+    border-radius: 2rem;
+    padding:  0.9rem 1.1rem ; 
+}
+.footer-f{
+    margin-top: 4rem;
+    background-color:rgb(14, 21, 37) ;
+}
+footer{
+    padding: 7rem 4rem;
+}
+.fylo-c{
+    display: flex;
+    column-gap: 10rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.location{
+    display: flex;
+    column-gap: 2rem;
+}
+.loc-t{
+    margin: 0;
+    font-size: 1.2rem;
+    color: white;
+}
+.contact{
+    margin-bottom: 1rem;
+    display: flex;
+    column-gap: 1rem;
+}
+footer li{
+    list-style-type: none;
+}
+.link1, .link2, .link3{
+    margin: 0;
+    padding: 0;
+}
+.loc-t2{
+    display: flex;
+    column-gap: 1rem;
+}
+.loc-t2 img{
+    width: 5%;
+    height: 20%;
+}
+.link-f{
+    padding-bottom: 1rem;
+}
+.ft-l{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+.link3{
+    display: flex;
+    column-gap: 0.5rem;
+}
+.links-ft{
+    display: flex;
+    column-gap: 5rem;
+}
+.social-m{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px ;
+    height: 20px;
+    padding: 0.4rem;
+    border: 1px solid white;
+    border-radius: 100% ;
+}
+.social-m:hover{
+    border-color: rgb(9, 187, 219);
+    background-color: rgb(9, 187, 219);
+}
+footer svg{
+    margin-top: 3px;
+}
+@media screen and (max-width:600px){
+    .grey-bg{
+        padding: 1rem;
+    }
+    header a{
+        font-size: 1rem;
+    }
+    .logo{
+        width: 40%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .grid-wrap{
+        padding: 1rem;
+        display: block;
+    }
+    .access-any{
+        width: 100%;
+    }
+    .flex-w{
+        padding: 0;
+        padding: 1rem;
+        display: block;
+    }
+    .curve-img img{
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+    .intro{
+        margin: 2rem 0;
+        text-align: center;
+        bottom: 50px;
+        position: absolute;
+    }
+    .picture1{
+        margin: 3rem 0 27rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .desk-bg{
+        display: none;
+    }
+    .mobile-bg{
+        display: block;
+        bottom: 300px;
+        position: absolute;    
+    }
+    .p-opin{
+        margin: 2rem 2rem 10rem;
+    }
+    .opi-wrap{
+        display: block;
+    }
+    .pers{
+        margin: 1rem 0;
+    }
+    .get-access{
+        bottom: 700px;
+        padding: 1rem;
+        margin:  2rem 1rem ; 
+    }
+    .text-g{
+        text-align: center;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    .acc{
+        font-size: 0.7rem;
+    }
+    form{
+      display: block;
+    }
+    .email1{
+        width: 80%;
+        margin-bottom: 1rem ;
+    }
+    .submit1{
+        width: 100%;
+    }
+    .footer-f{
+        margin-top: 4rem;
+        background-color:rgb(14, 21, 37) ;
+    }
+    footer{
+        padding: 15rem 1rem 1rem;
+    }
+    .fylo-c{
+        display: block;
+        margin-top: 3rem;
+    }
+    .location{
+      display: block;
+    }
+    .loc-t{
+        margin: 0;
+        font-size: 1.2rem;
+        color: white;
+    }
+    .picture1 {
+        margin: 1rem 0 20rem;
+        display: block;
+        width: 100%;
+    }
+    .picture1 img{
+        width: 100%;
+    }
+    .contact{
+        margin: 1rem 0;
+        display: flex;
+        column-gap: 1rem;
+    }
+    footer li{
+        list-style-type: none;
+    }
+    .link1, .link2, .link3{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .loc-t2{
+       display: block;
+    }
+    .loc-t2 img{
+        width: 5%;
+        height: 20%;
+    }
+    .link-f{
+        padding-bottom: 1rem;
+    }
+    .ft-l{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+    }
+    .link3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 0.5rem;
+    }
+    .links-ft{
+      display: block;
+    }
+    .social-m{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px ;
+        height: 20px;
+        padding: 0.4rem;
+        border: 1px solid white;
+        border-radius: 100% ;
+    }
+    .social-m:hover{
+        border-color: rgb(9, 187, 219);
+        background-color: rgb(9, 187, 219);
+    }
+    footer svg{
+        margin-top: 3px;
+    }
+    .img-3{
+        width: 100%;
+    }
+    .img-3 img{
+        width: 100%;
+    }
+}
